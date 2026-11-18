@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Rullia Resty Handayani</h1>
+        <h2>Mahasiswa <strong>Teknologi Informasi</strong> <span id="label-semester" class="badge"></span></h2>
+        <p id="sapaan"></p>
+        <nav>
+            <a class="menu-link" href="#tentang">Tentang</a> 
+            <a class="menu-link" href="#pendidikan">Pendidikan</a> 
+            <a class="menu-link" href="#keahlian">Keahlian</a> 
+            <a class="menu-link" href="#kontak">kontak</a> 
+        </nav>
+    </header>
+<main>  
+    <section id="tentang">
+        <h3>Tentang Saya</h3>
+        <img src="https://lh3.googleusercontent.com/d/1adD5v7xtPozNMDOezvuHxHRam7x-8_UK" alt="foto profil Rullia Resty Handayani" width="200">
+        <div class="bio-text">
+        <p>
+            Halo! Saya Mahasiswa semester 3 Program Studi Teknologi Informasi, UIN Salatiga. Saya sedang belajar membangun website dari dasar.
+        </p>
+
+        <p>
+            Saya tertarik pada dunia web development dan berharap bisa membuat aplikasi web yang bermanfaat suatu saat nanti.
+        </p>
+        <p id="info-tambahan"></p>
+        <ul id="daftar-pengalaman"></ul>
+        </div>
+    </section>
+
+    <section id="pendidikan">
+        <h3>Riwayat Pendidikan</h3>
+    <table>
+        <tr>
+            <th>Tahun</th>
+            <th>Jenjang</th>
+            <th>Institusi</th>
+        </tr>
+        <tr>
+            <td>2022 - 2025</td>
+            <td>SMK</td>
+            <td>SMK Negeri 1 Wonosegoro</td>
+        </tr>
+        <tr>
+            <td>2025 - sekarang</td>
+            <td>S1</td>
+            <td>UIN Salatiga</td>
+        </tr>
+    </table>
+    </section>
+
+    <section id="keahlian">
+    <div class="skill-blok">
+        <h3>Keahlian</h3>
+        <ul>
+            <li>HTML &amp; CSS dasar</li>
+            <li>Logika pemrograman (Python)</li>
+            <li>Desain sederhana dengan Canva</li>
+        </ul>
+        <ul id="keahlian-tambahan"></ul>
+        </div>
+        <div class="skill-block">
+
+    <h3>Urutan Belajar Semester Ini</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol> 
+    </div>
+    </section>
+
+    <section id="kontak">
+        <h3>Hubungi Saya</h3>
+    <form id="form-kontak">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="pesan">Pesan: </label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="30"></textarea><br>
+        
+        <button type="submit">Kirim</button>
+        <p>
+            Atau langsung hubungi 
+            <a href="https://www.instagram.com/summerresty_0?utm_source=qr&stkn=OGZ1NnQ5Y2I5NGVu">instagram</a>
+            |
+            <a href="mailto:handayani7691@gmail.com">email</a>
+        </p>
+
+        <p id="hasil-form"></p>
+        <button type="button" id="btn-cek">Cek Info Diri</button>
+        <p id="hasil-cek"></p>
+    </form>
+    </section>
+</main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Rullia Resty Handayani</p>
+        <p id="status-uts"></p>
+
+    <p>Kunjungi juga :</p>
+        <a href="https://www.instagram.com/summerresty_0?utm_source=qr&stkn=OGZ1NnQ5Y2I5NGVu">instagram</a>
+        <a href="mailto:handayani7691@gmail.com">email</a>
+    </footer>
+<script src="script.js" defer></script>
+</body>
+</html>
